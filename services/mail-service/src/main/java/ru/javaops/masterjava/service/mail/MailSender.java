@@ -29,7 +29,7 @@ public class MailSender {
             }
 
             //  https://yandex.ru/blog/company/66296
-            email.setHeaders(ImmutableMap.of("List-Unsubscribe", "<mailto:masterjava@javaops.ru?subject=Unsubscribe&body=Unsubscribe>"));
+              email.setHeaders(ImmutableMap.of("List-Unsubscribe", "<mailto:Vlasovolderrezerv@yandex.ru?subject=Unsubscribe&body=Unsubscribe>"));
 
             email.send();
         } catch (EmailException e) {

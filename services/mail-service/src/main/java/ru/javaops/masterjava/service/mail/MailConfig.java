@@ -13,7 +13,7 @@ import java.nio.charset.StandardCharsets;
 public class MailConfig {
     private static final MailConfig INSTANCE =
             new MailConfig(Configs.getConfig("mail.conf", "mail"));
-
+    //ouafuhdliypalkcn
     final private String host;
     final private int port;
     final private boolean useSSL;
