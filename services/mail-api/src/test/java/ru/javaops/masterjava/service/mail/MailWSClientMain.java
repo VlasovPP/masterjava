@@ -1,6 +1,6 @@
 package ru.javaops.masterjava.service.mail;
 
-import com.google.common.collect.ImmutableList;
+import com.google.common.collect.ImmutableSet;
 
 public class MailWSClientMain {
     public static void main(String[] args) {
